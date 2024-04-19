@@ -1,3 +1,4 @@
 export default function Comics() {
-    <div><p>Comics</p></div>
+return(    <div><p>Comics</p></div>
+)
 }

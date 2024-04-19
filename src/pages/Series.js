@@ -1,3 +1,3 @@
 export default function Series() {
-    <div><p>Series</p></div>
+   return( <div><p>Series</p></div>)
 }
