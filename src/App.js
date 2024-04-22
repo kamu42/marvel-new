@@ -6,14 +6,16 @@ import Series from "./pages/Series";
 import Error404 from "./pages/Error404";
 import Comics from './pages/comics';
 import Header from "./components/Header/Header";
-
 import{ BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
+
   return (
     <div>
       <BrowserRouter>
+      
       <Header />
+      
         <Routes>
          <Route path="/" element={<Home />}/>
          <Route path="/home" element={<Home />}/>
