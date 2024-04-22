@@ -20,15 +20,15 @@ export default function LastEvents ({lastEventsFetch}){
         ui={false}
         />
          <Card.Content>
-        <Card.Header>{event.title}</Card.Header>
-        <Card.Meta>
-          <span>
-            <Icon name="book" />
-            {event.comics.available} Comics
-          </span>
-        </Card.Meta>
-        <Card.Description>{event.description}</Card.Description>
-      </Card.Content>
+            <Card.Header>{event.title}</Card.Header>
+            <Card.Meta>
+            <span>
+                <Icon name="book" />
+                {event.comics.available} Comics
+            </span>
+            </Card.Meta>
+            <Card.Description>{event.description}</Card.Description>
+         </Card.Content>
       <Card.Content extra>
         <Button
           animated
@@ -38,7 +38,7 @@ export default function LastEvents ({lastEventsFetch}){
           target="_blank"
           color="black"
         >
-          <Button.Content visible>Ver Evento</Button.Content>
+          <Button.Content visible>See Events</Button.Content>
           <Button.Content hidden>
             <Icon name="arrow right" />
           </Button.Content>
